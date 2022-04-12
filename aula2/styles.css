@@ -1,0 +1,116 @@
+head {
+    width: 1000px;
+    height: 100px;
+}
+
+body {
+    width: 1000px;
+    height: 500px;
+    background-color: #F0F0;
+}
+
+.navigation {
+    font-size: 20px;
+    background-color: white;
+    display: grid;
+    justify-content: left;
+    width: 500px;
+    height: 300px;
+    float: left;
+    padding-left: 2%;
+}
+
+.navigation a {
+    cursor: pointer;
+    background-color: white;
+    border-radius: 1000em;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    min-height: 0px;
+    min-width: 0px;
+    width: 30%;
+    text-decoration: none;
+    color: rgb(15, 20, 25);
+}
+
+.navigation a:hover {
+    cursor: pointer;
+    color: rgba(15, 25, 20, 0.1);
+    transition: 0.5s;
+    opacity: 0.7;
+}
+
+.publications {
+    font-size: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: left;
+    float: left;
+    width: 500px;
+    height: 400px;
+    padding-left: 2%;
+}
+
+.publications a {
+    font-size: 20px;
+    color: rgb(15, 20, 25);
+    display: grid;
+    justify-content: left;
+    width: 100%;
+    float: left;
+    padding-left: 2%;
+    text-decoration: none;
+}
+
+.publications a:hover {
+    cursor: pointer;
+    color: rgba(15, 25, 20, 0.1);
+    transition: 0.5s;
+    opacity: 0.7;
+}
+
+.estatistic li {
+    list-style-type: none;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    float: right;
+    padding-left: 10%;
+    border-radius: 100px;
+}
+
+.img {
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    color: rgba(15, 25, 20, 0.1);
+    transition: 0.5s;
+    opacity: 0.7;
+}
+
+h4 {
+    color: rgb(15, 20, 25);
+}
+
+h5 {
+    color: rgb(15, 20, 25);
+}
+
+p {
+    color: rgb(15, 20, 25);
+}
+
+a {
+    color: rgb(15, 20, 25);
+}
